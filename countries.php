@@ -1,7 +1,7 @@
 <?php
 
 //
-$countries = [
+return [
 	'AF' => 'Afghanistan',
 	'AL' => 'Albania',
 	'DZ' => 'Algeria',
@@ -244,6 +244,3 @@ $countries = [
 	'ZM' => 'Zambia',
 	'ZW' => 'Zimbabwe'
 ];
-
-//
-set_transient( '_countries', $countries, 365 * HOUR_IN_SECONDS );

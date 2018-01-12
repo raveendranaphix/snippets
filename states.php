@@ -1,7 +1,7 @@
 <?php
 
 //
-$states = [
+return [
 	'AF' => [
 		'1' => ['code' => 'BAL', 'name' => 'Balkh'],
 		'2' => ['code' => 'BAM', 'name' => 'Bamian'],
@@ -4764,6 +4764,3 @@ $states = [
 		'10' => ['code' => 'MD', 'name' => 'Midlands']
 	]
 ];
-
-//
-set_transient( '_states', $states, 365 * HOUR_IN_SECONDS );
